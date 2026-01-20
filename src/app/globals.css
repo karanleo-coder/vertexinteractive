@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-deep-charcoal: #0a0a0a;
+  --color-soft-graphite: #1a1a1a;
+  --color-accent-gold: #c5a059;
+  --color-off-white: #e0e0e0;
+
+  --font-sans: var(--font-inter);
+  --font-body: var(--font-manrope);
+
+  --animate-fade-in: fade-in 1s ease-out forwards;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-deep-charcoal);
+    color: var(--color-off-white);
+    font-family: var(--font-body);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-sans);
+    letter-spacing: -0.02em;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom utilities for luxury feel */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(to right, #e0e0e0, #c5a059);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Fallback UI Logic */
+.active-fallback {
+  display: flex !important;
+}
+
+/* Custom Text Selection Color */
+::selection {
+  background-color: var(--color-accent-gold);
+  color: var(--color-deep-charcoal);
+}
