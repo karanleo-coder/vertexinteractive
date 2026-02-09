@@ -31,7 +31,7 @@ export async function POST(req: Request) {
         };
 
         // Check if Make webhook URL is configured
-        if (!process.env.MAKE_WEBHOOK_URL) {
+        if (!process.env.makeurl) {
             console.warn("MAKE_WEBHOOK_URL is not defined in environment variables.");
             return NextResponse.json({
                 status: "ok",
@@ -41,7 +41,7 @@ export async function POST(req: Request) {
         }
 
         // Send to Make
-        const res = await fetch(process.env.MAKE_WEBHOOK_URL, {
+        const res = await fetch(process.env.makeurl, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(payload)
@@ -64,3 +64,4 @@ export async function POST(req: Request) {
         );
     }
 }
+
