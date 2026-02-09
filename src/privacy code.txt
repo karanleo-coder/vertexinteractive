@@ -1,0 +1,70 @@
+Copyright Notice:
+© 2024 Vertex Interactive. All rights reserved. KLE Nagarbhavi College name and logo are property of KLE Society. All app content, design, and code are proprietary to Vertex Interactive.
+
+Prohibited Activities Clause:
+Users are strictly prohibited from:
+
+Reverse engineering, decompiling, or disassembling the software
+
+Attempting to bypass security measures or access controls
+
+Copying, modifying, or creating derivative works
+
+Attempting unauthorized server access or disrupting services
+
+Automated scraping or data extraction without permission
+
+Any activity violating the Information Technology Act, 2000 (India)
+
+Violations may result in:
+
+Immediate account termination
+
+Legal action under Indian Copyright Act, 1957
+
+Civil and criminal penalties as per applicable laws
+
+Liability for damages and legal costs
+
+
+Privacy Policy Highlights:
+Data Collection:
+
+Student academic records (with consent)
+
+Faculty information
+
+Parent contact details
+
+Usage analytics (anonymous)
+
+Data Usage:
+
+Solely for educational and administrative purposes
+
+Never sold to third parties
+
+Shared only with authorized college personnel
+
+User Rights (Under Indian Law):
+
+Right to access personal data
+
+Right to correction/rectification
+
+Right to withdraw consent
+
+Right to grievance redressal
+
+Security Measures:
+
+SSL/TLS encryption
+
+Secure Indian servers
+
+Regular security audits
+
+Compliance with IT Act, 2000 and SPDI Rules, 2011
+
+Grievance Officer:
+As required by Indian IT Rules, we appoint a Grievance Officer. Contact details available within website in support page.
